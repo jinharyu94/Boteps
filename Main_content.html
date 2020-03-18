@@ -6,16 +6,14 @@
 <!-- 티쳐블은 bootstrap 3.2.0 사용-->
 </head>
 <body>
-    <!-- 이후 작업은 이미지 소스 수취후 진행예정-->
     <!--body tag 제외하고 이 아래서 부터 적용해야 함-->
-    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css"> 
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
 <style>
     @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
-    .banner{
+    .BG_Top{
         display: block;
-        height: 450px;
         width: 100vw;
-        background-image: url(https://github.com/jinharyu94/Boteps/blob/master/Img/MainBanner_BG.png?raw=true);
+        background-image: url(https://github.com/jinharyu94/Boteps/blob/master/Img/BG_Top.png?raw=true);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -24,10 +22,239 @@
         font-family: 'NanumSquare', sans-serif !important;
         line-height: 20px;
     }
-</style>
+    .BG{
+        background-color: #205233;
+        height: 100%;
+    }
+    .Box {
+        box-sizing: content-box;
+        box-shadow: 5px 6px 8px 0px rgb(0,0,0,0.5);
+        max-width: 600px;
+        width: 50vw;
+        background-color: white;
+        border-radius: 20px;
+        padding: 60px;
+        margin-bottom: 100px;
+        margin-left: 25vw;
+        color: #3d3d3d;
+    }
+    .Box h3{
+        color: black;
+        font-size: x-large;
+        font-family: 'NanumSquare', sans-serif !important;
+    }
+    .Box h5{
+        color: black;
+        font-size: medium;
+        font-family: 'NanumSquare', sans-serif !important;
+    }
+    .BotepsColor{
+        color:#205233;
+    }
+    .reviewTitle{
+        text-align: center;
+        padding: 20px;
+        color:black !important;
+    }
+    .reviewer{
+        text-align: center;
+        color:#205233;
+    }
+    .reviewer h5{
+        color: #205233;
+        font-weight: bold;
+    }
+    </style>
 
-<div class="container-fluid">
-   <img src="https://github.com/jinharyu94/Boteps/blob/master/Img/main_Sample.png?raw=true" alt="">
+<div class="container-fluid BG_Top">
+    <div id="firstBox" class="row">
+        <div class="Box col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 course-description">
+            <div class="reviewTitle">
+                <h3>“전문가의 도움이 절실히 필요한 시기에<br>
+                    좋은 스승 <span class="BotepsColor">보텝스</span>를 만났습니다.</h3>
+                <h5>I met a good teacher, <span class="BotepsColor">BOTEPS</span>,<br>
+                    at a time when I was in dire need of professional help"</h5>
+            </div>
+            <p>
+            - 기본동작 하나를 가르쳐도 도장에서 아이들이 지루하지 않게 논리적으로 지도할
+                수 있는 방법을 구사합니다.<br><br>
+            - 급소(혈 자리) 태권도 용어를 글로벌 시대에 맞게 영어단어로 알려주니 이해가
+                더 잘되는 것 같습니다.<br><br>
+            - 나이 많은 지도자를 위해 몸에 힘을 빼고 하는 방법 등을 알려주시니 부담 없이
+                배울 수 있습니다.<br><br>
+            - 상대방을 배려해가며 다그치지 않고 친절히 지도해주는 마음가짐이 단연
+                돋보입니다.<br><br>
+            </p>
+            <hr><br>
+            <p>
+            - Leared how to teach my student theoretically for basic skills with no
+                boring time.<br><br>
+            - For instance, learning a global terminology for critical point as vital
+                point help me to understand better.<br><br>
+            - Could learn how how relax with my whole body while I training for
+                elderly master.<br><br>
+            - A kind teaching methods with a considerate mind to prevent any
+                physical damage or wounds.
+            </p><br>
+            <div class="reviewer">
+                <h5>경희대 장안태권도장 전인환 관장(경기도 성남시 분당구 소재)</h5>
+                <p>Kyunghee Univ. Jangan Taekwondo Master Chun, In-hwan (Bundang Sungnam, Gyeonggido)</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contatiner-fluid">
+    <div class="row BG">
+        <div class="Box col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 course-description">
+            <div class="reviewTitle">
+                <h3>“태권도의 멋과 맛에 빠져서<br>
+                    시간 가는 줄 모르고 다시 공부하고 수련하고 있네요.<br>
+                    <span class="BotepsColor">보텝스</span> 덕분입니다.</h3>
+                <h5>I'm addicted to Taekwondo's taste and taste,<br>
+                    so I'm studying and practicing again without knowing how to go.<br>
+                    Thanks to <span class="BotepsColor">Boteps</span>.</h5>
+            </div>
+            <p>장작 본인 수련에 게으름 피우던 찰나에 이기철 사범님과 유미숙 사범님에 태권도
+            풍미와 철학에 매료되어 새삼스럽게 태권도의 멋과 맛에 빠져서 시간 가는 줄
+            모르고 다시 공부하고 수련하고 있네요.<br><br>
+            다수의 도장운영자들이 나와 같이 너무 도장경영에만 포커스를 두고 시간을 보내
+            다보니 바쁘다는 자기합리화로 게으름을 정당화한 것 같습니다.<br><br>
+            당분간 배우는 즐거움으로 구슬땀을 흘려보고자 합니다.<br><br>
+            보텝스 파이팅입니다<br><br>
+            </p>
+            <hr><br>
+            <p>
+            By the time I was lazy in self-training, I met Master Lee and Yoo. I was
+            fascinated with their philosophy and the real taste of Teakwondo
+            training. I found myself enjoying learning and training again.<br><br>
+            I assume that most of the gym owners are about to same like me, lazy
+            and after for management of gym instead of learning and training for
+            themselves. No excuses for laziness or too budy for that!<br><br>
+            I will invest my sweat in learning and training for the time beng.<br><br>
+            Let’s go, Boteps alumni!</p><br><br>
+            <div class="reviewer">
+                <h5>경희대 성원태권도장 조웅희 관장(경기도 광주시 소재)</h5>
+                <p>Kyunghee Univ. Sungwon Taekwondo Master Cho, Woong-hee (Gwangju, Gyeonngido)</p>
+            </div>
+        </div>
+    </div>
+    <div class="row BG">
+        <div class="Box col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 course-description">
+            <div class="reviewTitle">
+                <h3>“태권도 기술이 어느 정도 수련된 수련생이나,<br>
+                    지도자의 길을 가고 싶어 하는 태권도인이라면<br>
+                    <span class="BotepsColor">보텝스</span>의 수련 과정을 강하게 추천합니다.</h3>
+                <h5>I would like to recommend <span class="BotepsColor">Boteps</span> seminars
+                    strongly for those who has higher level of Taekwondo
+                    trainees and who want to be a masters/instructors.”</h5>
+            </div>
+            <p>다양한 경험과 실력을 갖춘 지도진분들이 계셔서 태권도의 기본 기술뿐만 아니라
+                기의 쓰임, 마음이 향해야 하는 길, 등을 함께 이야기하며 찾아가는 분위기도
+                좋습니다.<br><br>
+                
+                수년째 함께 가르침을 받고 수련을 하는 수련자로서 어느 순간 나 자신도 모르는
+                사이에 달라져 있는 나를 발견하곤 합니다.<br><br>
+            </p>
+            <hr><br>
+            <p>
+                You can learn not only various experiences and skills, but also how to
+                use chi and right attitudes by communicating to each other in the
+                seminars.<br><br>
+                
+                After years as a member Boteps family, I found myself as totally
+                different and enhanced in the level of Taekwondo concerned.</p><br><br>
+            <div class="reviewer">
+                <h5>하나태권도장 박혜진 관장(경기도 연천군 소재)</h5>
+                <p>Hana Taekwondo Master Park, Hye-jin (Yeoncheon, Gyeonggido)</p>
+            </div>
+        </div>
+    </div>
+    <div class="row BG">
+        <div class="Box col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 course-description">
+            <div class="reviewTitle">
+                <h3>“<span class="BotepsColor">보텝스</span>와 만난 첫날부터 감동 그 자체였습니다.<br></h3>
+                <h5>I was touched deeply by <span class="BotepsColor">Boteps</span> from the first day.”</h5>
+            </div>
+            <p>나름 품새를 잘한다고 생각하며 아이들을 지도하다 보니 어느 순간 저에게 모자란
+                것이 많다는 생각이 들어 세미나를 참여하게 되었습니다.
+                <br><br> 
+                동작 하나하나에 담긴 의미와 동작에 대해 이해를 하게끔 설명까지 해주시기에
+                그냥 오늘 배운 것들을 열심히 연습한다면 제자들에게 부끄럽지 않은 스승이 될
+                수 있을 것 같다는 생각이 들었습니다.
+                <br><br> 
+                운동하며 그리기, 꼬임, 호흡법 등 다양한 방법으로 품새를 지도하셔주셔서 품새를
+                더 쉽게 이해할 수 있었으며 다양한 운동법과 도구를 활용한 발차기 훈련법들을
+                지도하셔주셔서 발차기 훈련에도 많은 도움이 되었습니다.<br><br>
+            </p>
+            <hr><br>
+            <p>
+                I decided to participate in Boteps seminar when I realized that I need
+                a continuing education for Poomsae even though I am a good teacher
+                for that.
+                <br><br>
+                they taught me all the meanings and motions with easy explanations,
+                what I need to do is just learn and train those every day by day. Now I
+                think that I can be a better teacher for my student.
+                <br><br>
+                I learned many techniques of Poomsae such as drawing, twisting and
+                breathing while performing so I can understand Poomsae better. Also, 
+                earned various kind of training methods with tools for kicks. It helped
+                me a lot in kick training.</p><br><br>
+            <div class="reviewer">
+                <h5>방이태권도장 김군식 관장(경기도 남양주시 소재)</h5>
+                <p>Bangyi Taekwondo Master Kim, Gun-sik (Namyangju, Gyeonngido)</p>
+            </div>
+        </div>
+    </div>
+    <div class="row BG">
+        <div class="Box col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 course-description">
+            <div class="reviewTitle">
+                <h3>“<span class="BotepsColor">보텝스</span>를 통해 아주 기초적인 것 부터
+                    고급 기술까지 잘 배우게 되었습니다. <br></h3>
+                <h5>I was lucky to learn all those through <span class="BotepsColor">Boteps</span> 
+                    from basic to advanced skills for Taekwondo.”</h5>
+            </div>
+            <p>태권도를 배우면서 각 동작의 의미와 왜 이렇게 하는지에 대해서 항상 궁금해
+                했습니다.
+                <br><br> 
+                
+                태권도를 배우면서 이렇게 공감되고 이해되었던 적이  같습니다.
+                개인적으로도 도움이 되었지만 남을 가르칠 때도 충분히  생각합니다.
+                <br><br> 
+                특히 제기 이러한 내용을 성인에게 설명하면 가슴이 펑 하는 느낌을 받는다고
+                합니다. 어디서도 궁금증을 못 풀었지만 보텝스는 저에게 큰 의미입니다.
+                <br><br> 
+                이제 동영상 강좌가 나와서 반복적 학습으로 잊은 것을 다시 상기하고. 놓쳤던
+                내용을 다시 알 수 있어 많은 기대를 하고 있습니다.
+                <br><br>
+                보텝스 감사합니다!
+                
+                <br><br>
+            </p>
+            <hr><br>
+            <p>
+                I was so curious about the theories why we do such a motion and how
+                to do it right all the time.
+                <br><br>
+                Actually, this is the first time that I realized and understand better for
+                Taekwondo training. Not only for self-training but also for application
+                for teaching others as master.
+                <br><br>
+                Especially, when I teach other adult trainees,
+                they were so enlightened and happy about what they found out. 
+                No one taught that before but now I know it! What a great semanar.
+                <br><br>
+                By the time Boteps on-line lesson is available, I am going to train
+                those repeatedly to master. I am so excited to have that on-line
+                service soon!
+                <br><br>
+                Thank you, Chairman !</p><br><br>
+            <div class="reviewer">
+                <h5>진 호 사범(대한항공 엔지니어)</h5>
+                <p>Master Jin, Ho Engineer, Korean Air</p>
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>
